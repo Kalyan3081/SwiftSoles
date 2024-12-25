@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    /* background-color: black; */
+    /* color: white; */
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 20px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .navbottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menuitem {
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #slider {
+        clip-path: none;
+    }
+
+    .slideritems {
+
+        display: flex;
+    }
+
+    .img1 {
+        width: 90%;
+    }
+
+    .slidebg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slidertitle {
+        display: none;
+    }
+
+    .sliderprice {
+        top: 0;
+        right: 0;
+        left: unset;
+        font-size: 40px;
+        background-color: lightgray;
+    }
+
+    .button {
+        top: unset;
+        bottom: 0px;
+        right: unset;
+        left: 0;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+
+    .product {
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .productImg {
+        width: 80%;
+    }
+
+    .productTitle {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .productDetails {
+        top: -40px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .productDesc {
+        /* width: 30%; */
+        font-size: 15px;
+    }
+
+    .color {
+        height: 16px;
+        width: 16px;
+    }
+
+    .size {
+        font-size: 15px;
+    }
+
+    .quantity_cart {
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    .quantity {
+        border: 1px solid black;
+        border-radius: 5px;
+        /* background-color: white; */
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .newSeason {
+        background-color: black;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .nsItem:nth-child(2) {
+        padding: 50px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footerRight {
+        padding: 20px;
+        width: 90%;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+
+    .payment {
+        width: 80%;
+        padding: 20px;
+        z-index: 1;
+    }
+
+    .payinput {
+        padding: 8px;
+    }
+}
