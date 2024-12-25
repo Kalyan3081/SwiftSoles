@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './productDetails.module.css';
-import Payment from '../Payment/payment';
 
 const Productdetails = ({ data }) => {
     const [productImg, setProductImg] = useState({});

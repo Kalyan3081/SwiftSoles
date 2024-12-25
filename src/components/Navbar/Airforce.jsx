@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import Slider from '../Slider/Slider'
-import Navbar from './Navbar'
 import API from '../../services/shoeAPI'
-import Productdetails from '../Productdetails/productdetails'
 import Features from '../Features/Features'
+import Productdetails from '../Productdetails/Productdetails'
 
 const Airforce = () => {
 
