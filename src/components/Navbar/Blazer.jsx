@@ -1,8 +1,8 @@
 import React from 'react'
 import API from '../../services/shoeAPI'
 import Slider from '../Slider/Slider'
-import Productdetails from '../Productdetails/productdetails'
 import Features from '../Features/Features'
+import Productdetails from '../Productdetails/Productdetails'
 
 const Blazer = () => {
 

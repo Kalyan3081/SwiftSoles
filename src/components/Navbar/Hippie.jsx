@@ -1,7 +1,7 @@
 import React from 'react'
 import API from '../../services/shoeAPI'
 import Slider from '../Slider/Slider'
-import Productdetails from '../Productdetails/productdetails'
+import Productdetails from '../Productdetails/Productdetails'
 import Features from '../Features/Features'
 
 const Hippie = () => {
